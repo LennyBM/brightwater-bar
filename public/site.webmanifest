@@ -1,0 +1,15 @@
+{
+  "name": "Brightwater Bar",
+  "short_name": "Brightwater Bar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#140E1F",
+  "theme_color": "#C8852B",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
