@@ -1,11 +1,11 @@
-import type { SiteConfig, NavLink } from './types';
+import type { SiteConfig, NavLink } from './types.ts';
 
 export const site: SiteConfig = {
   "slug": "brightwater-bar",
   "name": "Brightwater Bar",
   "shortName": "Brightwater Bar",
   "tagline": "A community-run rural bar and live-music venue on Brightwater Farm, Sutcombe",
-  "intro": "No regular kitchen or food menu confirmed (listed as 'no takeaway'). At events, food is provided by visiting vendors - for example an external BBQ ran at BRIGHTfest. Holds an FSA food hygiene registra",
+  "intro": "No regular kitchen or food menu confirmed (listed as 'no takeaway'). At events, food is provided by visiting vendors - for example an external BBQ ran at BRIGHTfest. Holds an FSA food hygiene registration.",
   "type": "Bar",
   "established": "",
   "siteUrl": "https://brightwater-bar.vercel.app",
@@ -15,7 +15,7 @@ export const site: SiteConfig = {
   "town": "Sutcombe",
   "county": "Devon",
   "postcode": "EX22 7QE",
-  "phone": "+44 7917 635678 (Apple Maps) / +44 7881 783626 (Restaurant Guru)",
+  "phone": "+44 7917 635678",
   "phoneHref": "tel:+447917635678",
   "email": "",
   "coordinates": {
@@ -84,7 +84,7 @@ export const site: SiteConfig = {
   },
   "sundayLunch": null,
   "booking": null,
-  "whatsapp": "",
+  "whatsapp": "447917635678",
   "drinks": "Focus on real ale and cask bitter alongside other bar drinks. Reviews repeatedly praise the beer ('good drinks', 'good beer', and the well-remembered 'Anarchist Party Bitter' from the site's Art Brew era). Frequently mentioned: beer, ale, bitter. Credit cards accepted.",
   "accommodation": {
     "has": false,
@@ -187,19 +187,12 @@ export const site: SiteConfig = {
     "img-08.jpg",
     "img-09.jpg",
     "img-10.jpg",
-    "img-11.jpg",
-    "img-12.jpg",
     "img-13.jpg",
-    "img-14.jpg",
     "img-15.jpg",
     "img-16.jpg",
-    "img-17.jpg",
-    "img-18.jpg",
-    "img-19.jpg",
-    "img-20.jpg",
-    "img-21.jpg"
+    "img-17.jpg"
   ],
-  "hero": "img-00.jpg",
+  "hero": "img-03.jpg",
   "featured": [
     "img-01.jpg",
     "img-02.jpg",
@@ -209,6 +202,23 @@ export const site: SiteConfig = {
     "img-06.jpg"
   ],
   "videoUrls": [],
+  "focal": {
+    "img-00.jpg": "40% 45%",
+    "img-02.jpg": "40% 55%",
+    "img-03.jpg": "55% 55%",
+    "img-04.jpg": "55% 60%",
+    "img-06.jpg": "45% 40%",
+    "img-08.jpg": "45% 45%",
+    "img-09.jpg": "55% 35%",
+    "img-13.jpg": "55% 40%",
+    "img-15.jpg": "40% 35%",
+    "img-16.jpg": "40% 50%"
+  },
+  "design": {
+    "display": "coast",
+    "hero": "anchor",
+    "order": "locals-led"
+  },
   "theme": {
     "mode": "dark",
     "primary": "#C8852B",
